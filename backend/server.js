@@ -9,15 +9,8 @@ console.log(`Loading .env from: ${path.resolve(__dirname, '.env')}`);
 
 const app = express();
 
-const allowedOrigins = ['https://mockmate-ai-nu.vercel.app', 'http://localhost:3000'];
 app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
+  origin: ['http://localhost:3000', 'https://mockmate-ai-nu.vercel.app'],
   credentials: true,
 }));
 app.use(express.json({ limit: '50mb' }));

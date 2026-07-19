@@ -24,7 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
-  "proxy": "https://mockmate-ai-nu.vercel.app",
+  "proxy": "http://localhost:5000",
   "browserslist": {
     "production": [
       ">0.2%",
