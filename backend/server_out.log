@@ -1,0 +1,6 @@
+Loading .env from: C:\Users\HassanUsmani\Desktop\mockai\backend\.env
+Attempting MongoDB connection to: mongodb://localhost:27017/mockai
+MongoDB connected successfully: localhost
+Server running on port 5000
+Login attempt for email: hassanullahusmani1@gmail.com
+Login successful: 6a5b3acd4f73f1f36047674a

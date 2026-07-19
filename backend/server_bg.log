@@ -1,0 +1,691 @@
+Loading .env from: C:\Users\HassanUsmani\Desktop\mockai\backend\.env
+Attempting MongoDB connection to: mongodb://localhost:27017/mockai
+MongoDB connected successfully: localhost
+Server running on port 5000
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 3
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for backend. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: Step 2: Today's topic is **JWT** (JSON Web Token).
+
+---
+
+### What is JWT?
+JWT stands for **JSON Web Token**. It is a compact, URL-safe way to represent claims (pieces of information) between two parties — usually a server and a client. A JWT is just a string that looks like this:
+
+```
+eyJhbGciOiJIUz
+========== END OPENROUTER CALL ==========
+
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 5
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for backend. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: Great! You understood JWT very well.
+
+Whenever you are ready, just click **"Next Topic"** and we will learn the next backend concept from the list — such as Node.js, Express, REST API, Authentication, MongoDB, SQL, Redis, Caching, Security, or Error Handling.
+
+I’ll be here to teach the next one gent
+========== END OPENROUTER CALL ==========
+
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 7
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for backend. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: Step 2: Today's topic is **Node.js**.
+
+---
+
+### What is Node.js?
+Node.js is a **JavaScript runtime** built on Chrome's V8 engine. It lets you run JavaScript code **outside the browser**, mainly on servers. Normally, JavaScript only worked in web pages. Node.js made it possible to write backend code,
+========== END OPENROUTER CALL ==========
+
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 9
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for backend. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: Great! You understood Node.js very well.
+
+Whenever you are ready, just click **"Next Topic"** and we will gently explore the next backend concept from our list — such as Express, REST API, Authentication, MongoDB, SQL, Redis, Caching, Security, or Error Handling.
+
+I’ll be here to teach it step by st
+========== END OPENROUTER CALL ==========
+
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 11
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for backend. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: Step 2: Today's topic is **Express**.
+
+---
+
+### What is Express?
+Express is a **web framework for Node.js**. Node.js gives you the ability to run JavaScript on a server, but it does not give you easy tools to build web APIs. Express sits on top of Node.js and makes it simple to:
+- Listen for HTTP re
+========== END OPENROUTER CALL ==========
+
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 13
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for backend. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: Great! You understood Express very well.
+
+Whenever you are ready, just click **"Next Topic"** and we will gently go through the next backend concept from our list — such as REST API, Authentication, MongoDB, SQL, Redis, Caching, Security, or Error Handling.
+
+I’ll be right here to teach it clearly an
+========== END OPENROUTER CALL ==========
+
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 3
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for baackend. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: Great! Let's move on.
+
+Today we will learn Backend Development Interview concepts.
+
+**Topic: REST API**
+
+**Definition**
+REST API stands for Representational State Transfer Application Programming Interface. It is a way for different software systems to talk to each other over the internet using stan
+========== END OPENROUTER CALL ==========
+
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 3
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for baackend. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: Today we will learn Backend Development Interview concepts.
+
+The topic we will explore today is **JWT** (JSON Web Token).
+
+---
+
+### Definition
+JWT stands for JSON Web Token. It is a compact, URL-safe way to represent claims (pieces of information) between two parties as a JSON object. A JWT is digit
+========== END OPENROUTER CALL ==========
+
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 5
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for baackend. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: No worries at all — let’s look at JWT from a simpler angle.
+
+---
+
+### What is JWT (simple version)
+JWT is just a fancy name for a **piece of text that proves who you are**, given to you by a server after you log in. It is like a wristband at a concert.
+
+---
+
+### A simpler real-world example
+Think of
+========== END OPENROUTER CALL ==========
+
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 7
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for baackend. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: Great! You’ve got the idea of JWT and the signature as the trusted stamp.
+
+To go a bit deeper: the signature is created on the server using a **secret key** (or a private key). When your wristband arrives at the ride operator (the API), the server recomputes the signature from the received header + 
+========== END OPENROUTER CALL ==========
+
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 9
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for baackend. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: No problem at all — let’s slow down and look at JWT one more time, with brand-new simple words and a fresh example.
+
+---
+
+### What JWT is (very simple)
+JWT is a **note from the server** that says “this person is allowed in.” The server gives you the note after you log in. You keep it and show it eve
+========== END OPENROUTER CALL ==========
+
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 11
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for baackend. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: Wonderful — you now understand how the signature acts like the baker’s stamp that protects the coupon from being changed.
+
+A little deeper: because the stamp (signature) is made using a secret only the bakery (server) knows, anyone can read the coupon (JWT) but no one can safely change it without th
+========== END OPENROUTER CALL ==========
+
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 13
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for baackend. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: Today we will learn Backend Development Interview concepts.
+
+The topic we will explore today is **REST API**.
+
+---
+
+### Definition
+REST API stands for Representational State Transfer Application Programming Interface. In simple terms, it is a set of rules that lets one computer (like a frontend app 
+========== END OPENROUTER CALL ==========
+
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 15
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for baackend. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: Great answer! A typical way would be `POST /loans` (or `POST /users/123/loans`) with the book info in the request body — that follows REST conventions by using POST to create a new resource.
+
+A bit deeper: in REST, the URL usually points to a **collection** (like `/loans`) and the method tells the s
+========== END OPENROUTER CALL ==========
+
+
+========== GENERATE QUESTIONS ==========
+Incoming request body: {"role":"baackend","company":"","experienceLevel":"mid","difficulty":"medium","language":"English"}
+User ID: new ObjectId('6a5b3acd4f73f1f36047674a')
+
+========== GENERATE QUESTIONS ==========
+Incoming request body: {"role":"baackend","company":"","experienceLevel":"mid","difficulty":"medium","language":"English"}
+User ID: new ObjectId('6a5b3acd4f73f1f36047674a')
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 2
+System prompt (first 200 chars): You are a strict technical recruiter conducting a real interview simulation.
+
+Rules:
+- Ask ONE interview question per turn about the user's target role.
+- Evaluate each answer with a score 0-100. Be o
+User prompt (first 300 chars): You are a technical interviewer. Based on the following resume and the target role "baackend" at company "" (experience: mid, difficulty: medium), generate exactly 5 interview questions. Return ONLY a JSON array of strings, no other text.
+Resume: No resume provided.
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 2
+System prompt (first 200 chars): You are a strict technical recruiter conducting a real interview simulation.
+
+Rules:
+- Ask ONE interview question per turn about the user's target role.
+- Evaluate each answer with a score 0-100. Be o
+User prompt (first 300 chars): You are a technical interviewer. Based on the following resume and the target role "baackend" at company "" (experience: mid, difficulty: medium), generate exactly 5 interview questions. Return ONLY a JSON array of strings, no other text.
+Resume: No resume provided.
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+
+========== GENERATE QUESTIONS ==========
+Incoming request body: {"role":"baackend","company":"","experienceLevel":"mid","difficulty":"medium","language":"English"}
+User ID: new ObjectId('6a5b3acd4f73f1f36047674a')
+
+========== GENERATE QUESTIONS ==========
+Incoming request body: {"role":"baackend","company":"","experienceLevel":"mid","difficulty":"medium","language":"English"}
+User ID: new ObjectId('6a5b3acd4f73f1f36047674a')
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 2
+System prompt (first 200 chars): You are a strict technical recruiter conducting a real interview simulation.
+
+Rules:
+- Ask ONE interview question per turn about the user's target role.
+- Evaluate each answer with a score 0-100. Be o
+User prompt (first 300 chars): You are a technical interviewer. Based on the following resume and the target role "baackend" at company "" (experience: mid, difficulty: medium), generate exactly 5 interview questions. Return ONLY a JSON array of strings, no other text.
+Resume: No resume provided.
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 2
+System prompt (first 200 chars): You are a strict technical recruiter conducting a real interview simulation.
+
+Rules:
+- Ask ONE interview question per turn about the user's target role.
+- Evaluate each answer with a score 0-100. Be o
+User prompt (first 300 chars): You are a technical interviewer. Based on the following resume and the target role "baackend" at company "" (experience: mid, difficulty: medium), generate exactly 5 interview questions. Return ONLY a JSON array of strings, no other text.
+Resume: No resume provided.
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: ["Describe how you would design a RESTful API for a user authentication system.","Explain database transaction isolation levels and their trade-offs.","How do you implement caching to reduce database load?","What strategies do you use for handling background jobs in backend systems?","How would you 
+========== END OPENROUTER CALL ==========
+
+Response status: 200
+Response statusText: OK
+Response content preview: ["Describe how you would design a RESTful API for a user management system.","Explain database transaction isolation levels and their trade-offs.","How do you implement caching to reduce database load?","What strategies do you use for handling background jobs in backend?","How would you secure an AP
+========== END OPENROUTER CALL ==========
+
+Response status: 200
+Response statusText: OK
+Response content preview: ["Describe how you would design a RESTful API for a user management system.","Explain database transaction isolation levels and their trade-offs.","How do you implement caching to reduce database load?","What strategies do you use for handling background jobs in backend?","How would you secure an AP
+========== END OPENROUTER CALL ==========
+
+Response status: 200
+Response statusText: OK
+Response content preview: ["Describe how you would design a RESTful API for a user management system.","Explain database transaction isolation levels and their trade-offs.","How do you implement caching to reduce database load?","What strategies do you use for handling background jobs in backend?","How would you secure an AP
+========== END OPENROUTER CALL ==========
+
+
+========== SUBMIT ANSWER ==========
+Request body: {"interviewId":"6a5c8264a85b4526e098a2ad","questionIndex":0,"answer":"\"I would design RESTful endpoints like GET /users, GET /users/:id, POST /users, PUT /users/:id, and DELETE /users/:id. I'd use proper HTTP status codes, JWT authentication, input validation, pagination for lists, and consistent JSON responses with clear error handling.\""}
+Mode: mock
+Question: Describe how you would design a RESTful API for a user management system.
+Answer length: 270
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 2
+System prompt (first 200 chars): You are a strict technical recruiter conducting a real interview simulation.
+
+Rules:
+- Ask ONE interview question per turn about the user's target role.
+- Evaluate each answer with a score 0-100. Be o
+User prompt (first 300 chars): Mode: mock. Evaluate this answer for question: Describe how you would design a RESTful API for a user management system.
+Answer: "I would design RESTful endpoints like GET /users, GET /users/:id, POST /users, PUT /users/:id, and DELETE /users/:id. I'd use proper HTTP status codes, JWT authentication
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: {"score":82,"feedback":"Covers core CRUD, auth, validation, pagination, errors. Lacks versioning, rate limiting, and resource nesting detail."}
+========== END OPENROUTER CALL ==========
+
+Raw evaluation response: {"score":82,"feedback":"Covers core CRUD, auth, validation, pagination, errors. Lacks versioning, rate limiting, and resource nesting detail."}
+Score: 82
+Feedback: Covers core CRUD, auth, validation, pagination, errors. Lacks versioning, rate limiting, and resourc
+========== END SUBMIT ANSWER ==========
+
+
+========== SUBMIT ANSWER ==========
+Request body: {"interviewId":"6a5c8264a85b4526e098a2ad","questionIndex":1,"answer":"Isolation Levels:\n\nRead Uncommitted – Fastest, but allows dirty reads (lowest consistency).\nRead Committed – Prevents dirty reads, but non-repeatable reads can happen.\nRepeatable Read – Ensures same data is read consistently, but phantom reads may occur.\nSerializable – Highest consistency, prevents all anomalies, but slowest due to locking.\n\nTrade-off: Higher isolation = better data consistency, but lower performance and concurrency."}
+Mode: mock
+Question: Explain database transaction isolation levels and their trade-offs.
+Answer length: 437
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 2
+System prompt (first 200 chars): You are a strict technical recruiter conducting a real interview simulation.
+
+Rules:
+- Ask ONE interview question per turn about the user's target role.
+- Evaluate each answer with a score 0-100. Be o
+User prompt (first 300 chars): Mode: mock. Evaluate this answer for question: Explain database transaction isolation levels and their trade-offs.
+Answer: Isolation Levels:
+
+Read Uncommitted – Fastest, but allows dirty reads (lowest consistency).
+Read Committed – Prevents dirty reads, but non-repeatable reads can happen.
+Repeatabl
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: {"score":88,"feedback":"Accurate coverage of four levels and trade-off. Missing mention of snapshot isolation and real-world DB variations like MVCC."}
+========== END OPENROUTER CALL ==========
+
+Raw evaluation response: {"score":88,"feedback":"Accurate coverage of four levels and trade-off. Missing mention of snapshot isolation and real-world DB variations like MVCC."}
+Score: 88
+Feedback: Accurate coverage of four levels and trade-off. Missing mention of snapshot isolation and real-world
+========== END SUBMIT ANSWER ==========
+
+
+========== SUBMIT ANSWER ==========
+Request body: {"interviewId":"6a5c8264a85b4526e098a2ad","questionIndex":2,"answer":"\"I implement caching using Redis to store frequently accessed data. The application checks the cache first (cache-aside pattern); if the data is missing, it fetches it from the database, stores it in Redis with a TTL, and returns it. This reduces database load, improves response time, and scales better.\""}
+Mode: mock
+Question: How do you implement caching to reduce database load?
+Answer length: 305
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 2
+System prompt (first 200 chars): You are a strict technical recruiter conducting a real interview simulation.
+
+Rules:
+- Ask ONE interview question per turn about the user's target role.
+- Evaluate each answer with a score 0-100. Be o
+User prompt (first 300 chars): Mode: mock. Evaluate this answer for question: How do you implement caching to reduce database load?
+Answer: "I implement caching using Redis to store frequently accessed data. The application checks the cache first (cache-aside pattern); if the data is missing, it fetches it from the database, stor
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: {"score":82,"feedback":"Clear cache-aside explanation with Redis and TTL. Lacks cache invalidation, consistency, and failure handling details."}
+========== END OPENROUTER CALL ==========
+
+Raw evaluation response: {"score":82,"feedback":"Clear cache-aside explanation with Redis and TTL. Lacks cache invalidation, consistency, and failure handling details."}
+Score: 82
+Feedback: Clear cache-aside explanation with Redis and TTL. Lacks cache invalidation, consistency, and failure
+========== END SUBMIT ANSWER ==========
+
+
+========== SUBMIT ANSWER ==========
+Request body: {"interviewId":"6a5c8264a85b4526e098a2ad","questionIndex":3,"answer":"\"I use job queues like Bull/BullMQ with Redis to process background tasks asynchronously. This keeps API responses fast, supports retries, scheduling, and handles tasks like emails, notifications, file processing, and report generation efficiently.\""}
+Mode: mock
+Question: What strategies do you use for handling background jobs in backend?
+Answer length: 249
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 2
+System prompt (first 200 chars): You are a strict technical recruiter conducting a real interview simulation.
+
+Rules:
+- Ask ONE interview question per turn about the user's target role.
+- Evaluate each answer with a score 0-100. Be o
+User prompt (first 300 chars): Mode: mock. Evaluate this answer for question: What strategies do you use for handling background jobs in backend?
+Answer: "I use job queues like Bull/BullMQ with Redis to process background tasks asynchronously. This keeps API responses fast, supports retries, scheduling, and handles tasks like ema
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: {"score":82,"feedback":"Mentions specific tools and benefits but lacks discussion of failure handling, monitoring, or scaling strategies."}
+========== END OPENROUTER CALL ==========
+
+Raw evaluation response: {"score":82,"feedback":"Mentions specific tools and benefits but lacks discussion of failure handling, monitoring, or scaling strategies."}
+Score: 82
+Feedback: Mentions specific tools and benefits but lacks discussion of failure handling, monitoring, or scalin
+========== END SUBMIT ANSWER ==========
+
+
+========== SUBMIT ANSWER ==========
+Request body: {"interviewId":"6a5c8264a85b4526e098a2ad","questionIndex":4,"answer":"\"I secure APIs using JWT authentication, HTTPS, input validation, rate limiting, role-based access control (RBAC), password hashing (bcrypt), and protection against SQL injection, XSS, and CSRF. I also log suspicious activity and keep dependencies updated.\""}
+Mode: mock
+Question: How would you secure an API against common attacks?
+Answer length: 257
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 2
+System prompt (first 200 chars): You are a strict technical recruiter conducting a real interview simulation.
+
+Rules:
+- Ask ONE interview question per turn about the user's target role.
+- Evaluate each answer with a score 0-100. Be o
+User prompt (first 300 chars): Mode: mock. Evaluate this answer for question: How would you secure an API against common attacks?
+Answer: "I secure APIs using JWT authentication, HTTPS, input validation, rate limiting, role-based access control (RBAC), password hashing (bcrypt), and protection against SQL injection, XSS, and CSRF
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: {"score":85,"feedback":"Covers auth, transport, validation, limits, RBAC, hashing, injection/XSS/CSRF, logging, deps. Missing API-specific threats like SSRF, broken object level auth, security headers."}
+========== END OPENROUTER CALL ==========
+
+Raw evaluation response: {"score":85,"feedback":"Covers auth, transport, validation, limits, RBAC, hashing, injection/XSS/CSRF, logging, deps. Missing API-specific threats like SSRF, broken object level auth, security headers."}
+Score: 85
+Feedback: Covers auth, transport, validation, limits, RBAC, hashing, injection/XSS/CSRF, logging, deps. Missin
+========== END SUBMIT ANSWER ==========
+
+
+========== FINISH INTERVIEW ==========
+Request body: {"interviewId":"6a5c8264a85b4526e098a2ad"}
+Questions count: 5
+Scored questions: 5
+Average score: 84
+Report prompt length: 2989
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 2
+System prompt (first 200 chars): You output only valid JSON.
+User prompt (first 300 chars): Based on this interview for role "baackend", provide a detailed final report.
+
+Q: Describe how you would design a RESTful API for a user management system.
+A: "I would design RESTful endpoints like GET /users, GET /users/:id, POST /users, PUT /users/:id, and DELETE /users/:id. I'd use proper HTTP st
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: {
+  "technicalScore": 83.8,
+  "communicationScore": 85,
+  "confidenceScore": 84,
+  "problemSolvingScore": 82,
+  "strengths": [
+    "Solid understanding of RESTful API design including CRUD, auth, validation, pagination, and error handling",
+    "Accurate explanation of database transaction isolation
+========== END OPENROUTER CALL ==========
+
+Raw report response: {
+  "technicalScore": 83.8,
+  "communicationScore": 85,
+  "confidenceScore": 84,
+  "problemSolvingScore": 82,
+  "strengths": [
+    "Solid understanding of RESTful API design including CRUD, auth, validation, pagination, and error handling",
+    "Accurate explanation of database transaction isolation levels and their trade-offs",
+    "Clear grasp of cache-aside caching with Redis and TTL to reduce DB load",
+    "Practical use of job queues (Bull/BullMQ) for asynchronous background processing",
+    "Broad API security knowledge covering JWT, HTTPS, RBAC, hashing, and common web attacks"
+  ],
+  "weaknesses": [
+    "REST API design lacks versioning, rate limiting, and resource nesting detail",
+    "Isolation levels missing snapshot isolation and real-world DB variations like MVCC",
+    "Caching explanation lacks invalidation, consistency, and failure handling",
+    "Background jobs lack failure handling, monitoring, and scaling strategies",
+    "Security coverage misses API-specific threat
+Report saved. Overall: 84
+========== END FINISH INTERVIEW ==========
+
+Login attempt for email: hassanullahusmani1@gmail.com
+Login successful: 6a5b3acd4f73f1f36047674a
+Login attempt for email: hassanullahusmani1@gmail.com
+Login successful: 6a5b3acd4f73f1f36047674a
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 3
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for backend developer. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: Great! Let's move on to our next concept.
+
+Today we will learn Backend Development Interview concepts.
+
+**Topic: REST API**
+
+**Definition**
+A REST API (Representational State Transfer Application Programming Interface) is a way for different software systems to talk to each other over the internet u
+========== END OPENROUTER CALL ==========
+
+
+========== OPENROUTER API CALL ==========
+Model: tencent/hy3:free
+API Key exists: true
+API Key prefix: sk-or-v1-5bc...
+Messages count: 3
+System prompt (first 200 chars): You are an expert backend tutor. Your job is to teach backend concepts one at a time. You are NOT an interviewer. You NEVER score, grade, or evaluate.
+
+TEACHING FLOW:
+Step 1: Announce "Today we will l
+User prompt (first 300 chars): Today we will learn Backend Development Interview concepts for Software Developer. Let's begin!
+Request body keys: [ 'model', 'messages', 'temperature', 'max_tokens' ]
+Sending request to: https://openrouter.ai/api/v1/chat/completions
+Response status: 200
+Response statusText: OK
+Response content preview: Great! Let's move on.
+
+Today we will learn Backend Development Interview concepts.
+
+**Topic: REST API**
+
+**Definition**
+A REST API (Representational State Transfer Application Programming Interface) is a way for different software systems to talk to each other over the internet using standard HTTP m
+========== END OPENROUTER CALL ==========
+

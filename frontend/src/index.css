@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after {
+    @apply border-transparent;
+  }
+
+  body {
+    @apply font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+
+  :root {
+    --color-bg: #ffffff;
+    --color-surface: #f8f7fc;
+    --color-surface-elevated: #ffffff;
+    --color-border: rgba(99, 102, 241, 0.12);
+    --color-text: #1e1b4b;
+    --color-text-secondary: #6b7280;
+    --color-glass: rgba(255, 255, 255, 0.7);
+    --color-glass-border: rgba(255, 255, 255, 0.3);
+    --color-glass-shadow: rgba(99, 102, 241, 0.08);
+  }
+
+  .dark {
+    --color-bg: #0f0a1a;
+    --color-surface: #1a1428;
+    --color-surface-elevated: #231d33;
+    --color-border: rgba(139, 92, 246, 0.15);
+    --color-text: #f0eefb;
+    --color-text-secondary: #9ca3af;
+    --color-glass: rgba(35, 29, 51, 0.8);
+    --color-glass-border: rgba(139, 92, 246, 0.15);
+    --color-glass-shadow: rgba(139, 92, 246, 0.05);
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/70 dark:bg-[var(--color-glass)] backdrop-blur-xl border border-white/30 dark:border-purple-500/10;
+    box-shadow: 0 8px 32px var(--color-glass-shadow);
+  }
+
+  .glass-card {
+    @apply glass rounded-2xl;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-600 via-indigo-500 to-pink-500;
+  }
+
+  .gradient-border {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      padding: 1px;
+      background: linear-gradient(135deg, #7c3aed, #6366f1, #ec4899);
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+    }
+  }
+
+  .skeleton {
+    @apply bg-gradient-to-r from-gray-200 via-gray-100 to-gray-200 dark:from-gray-800 dark:via-gray-700 dark:to-gray-800 bg-[length:200%_100%] animate-shimmer rounded-lg;
+  }
+
+  .scrollbar-custom {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(139, 92, 246, 0.3) transparent;
+
+    &::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: rgba(139, 92, 246, 0.3);
+      border-radius: 3px;
+      &:hover {
+        background: rgba(139, 92, 246, 0.5);
+      }
+    }
+  }
+
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-purple-500/50 focus:ring-offset-2 focus:ring-offset-transparent transition-all duration-200;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
