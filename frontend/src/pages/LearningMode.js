@@ -64,6 +64,7 @@ const LearningMode = () => {
   const role = location.state?.role || 'Software Developer';
   const company = location.state?.company || '';
   const experienceLevel = location.state?.experienceLevel || 'mid';
+  const language = location.state?.language || 'English';
 
   const { mode: activeMode, setMode } = useInterviewMode();
 
@@ -117,7 +118,7 @@ const LearningMode = () => {
     setChatLog((prev) => [...prev, { role: 'user', text: msg }]);
     setThinking(true);
     try {
-      const { data } = await api.post('/learning/message', { sessionId, message: msg });
+      const { data } = await api.post('/learning/message', { sessionId, message: msg, language });
       setChatLog((prev) => [...prev, { role: 'ai', text: data.reply }]);
     } catch {
       setChatLog((prev) => [...prev, { role: 'ai', text: 'Failed to get response. Please try again.', isError: true }]);
@@ -135,7 +136,7 @@ const LearningMode = () => {
     setThinking(true);
     if (increment) setTopicIndex((i) => Math.max(1, Math.min(totalTopics, i + increment)));
     try {
-      const { data } = await api.post(`/learning/${endpoint}`, { sessionId });
+      const { data } = await api.post(`/learning/${endpoint}`, { sessionId, language });
       setChatLog((prev) => [...prev, { role: 'ai', text: data.reply }]);
     } catch {
       setChatLog((prev) => [...prev, { role: 'ai', text: 'Failed to process request.', isError: true }]);
@@ -441,7 +442,7 @@ const LearningMode = () => {
       </motion.div>
 
       {/* Composer */}
-      <div className="glass rounded-2xl p-3 shrink-0 border border-gray-200/50 dark:border-gray-700/50 shadow-lg shadow-gray-900/5">
+      <div className="glass rounded-2xl p-3 shrink-0 border border-gray-200/50 dark:border-gray-700/50 shadow-lg shadow-gray-900/5 pb-6 md:pb-8">
         <div className="flex items-end gap-2">
           <div className="flex-1 relative">
             <textarea
@@ -452,7 +453,7 @@ const LearningMode = () => {
               placeholder="Ask a question, answer the practice, or say 'I don't know'..."
               rows={1}
               maxLength={1024}
-              className="w-full bg-transparent text-gray-900 dark:text-white placeholder-gray-400 resize-none focus:outline-none text-sm px-2 py-1.5 scrollbar-custom max-h-40"
+              className="w-full bg-transparent text-gray-900 dark:text-white placeholder-gray-400 resize-none focus:outline-none text-sm px-2 py-1.5 pr-24 scrollbar-custom min-h-[44px] max-h-40"
               disabled={thinking}
             />
             <div className="absolute right-2 bottom-1.5 text-[10px] text-gray-400 font-medium tabular-nums">

@@ -2,6 +2,11 @@ const Interview = require('../models/Interview');
 const User = require('../models/User');
 const { callOpenRouter, getSystemPrompt, LEARNING_PROMPT, MOCK_PROMPT } = require('../utils/openrouter');
 
+const languagePrompt = (lang) => {
+  const l = lang || 'English';
+  return `The user has selected ${l} as the interview language. You MUST respond strictly in this language. If the language is Urdu or Hindi, you MUST respond in Roman Urdu/Hindi (using English alphabets). Do not use English for greetings or explanations.\n\n${LEARNING_PROMPT}`;
+};
+
 exports.generateQuestions = async (req, res) => {
   try {
     console.log('\n========== GENERATE QUESTIONS ==========');
@@ -116,7 +121,7 @@ exports.learn = async (req, res) => {
     chatHistory.push(userMsg);
 
     const raw = await callOpenRouter([
-      { role: 'system', content: LEARNING_PROMPT },
+      { role: 'system', content: languagePrompt(session.language) },
       ...chatHistory.slice(-20),
     ]);
 
@@ -167,7 +172,8 @@ exports.submitAnswer = async (req, res) => {
 
     q.answer = answer;
 
-    const modePrompt = `${getSystemPrompt(interview.mode)}
+    const lang = interview.language || 'English';
+    const modePrompt = `The user has selected ${lang} as the interview language. You MUST respond strictly in this language. If the language is Urdu or Hindi, you MUST respond in Roman Urdu/Hindi (using English alphabets). Do not use English for greetings or explanations.\n\n${getSystemPrompt(interview.mode)}
 
 Question: ${q.question}
 Answer: ${answer}

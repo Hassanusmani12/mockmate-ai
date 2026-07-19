@@ -353,7 +353,7 @@ const Interview = () => {
       </div>
 
       {/* Input */}
-      <div className="glass rounded-2xl p-3 shrink-0 border border-gray-200/50 dark:border-gray-700/50 shadow-lg shadow-gray-900/5">
+      <div className="glass rounded-2xl p-3 shrink-0 border border-gray-200/50 dark:border-gray-700/50 shadow-lg shadow-gray-900/5 pb-6 md:pb-8">
         <div className="flex items-end gap-2">
           <div className="flex-1 relative">
             <textarea
@@ -363,7 +363,7 @@ const Interview = () => {
               placeholder={feedback ? "Press Next or Finish to continue..." : "Type your answer..."}
               rows={1}
               maxLength={512}
-              className="w-full bg-transparent text-gray-900 dark:text-white placeholder-gray-400 resize-none focus:outline-none text-sm px-2 py-1.5 scrollbar-custom max-h-40"
+              className="w-full bg-transparent text-gray-900 dark:text-white placeholder-gray-400 resize-none focus:outline-none text-sm px-2 py-1.5 pr-24 scrollbar-custom min-h-[44px] max-h-40"
               disabled={thinking || !!feedback}
             />
             <div className="absolute right-2 bottom-1.5 text-[10px] text-gray-400 font-medium tabular-nums">{answer.length}/512</div>

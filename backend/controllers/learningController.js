@@ -1,6 +1,11 @@
 const LearningSession = require('../models/LearningSession');
 const { callOpenRouter, LEARNING_PROMPT } = require('../utils/openrouter');
 
+const languagePrompt = (lang) => {
+  const l = lang || 'English';
+  return `The user has selected ${l} as the interview language. You MUST respond strictly in this language. If the language is Urdu or Hindi, you MUST respond in Roman Urdu/Hindi (using English alphabets). Do not use English for greetings or explanations.\n\n${LEARNING_PROMPT}`;
+};
+
 exports.start = async (req, res) => {
   try {
     const { role, company = '', experienceLevel = 'mid' } = req.body;
@@ -26,7 +31,7 @@ exports.start = async (req, res) => {
 
 exports.message = async (req, res) => {
   try {
-    const { sessionId, message } = req.body;
+    const { sessionId, message, language } = req.body;
     if (!sessionId) return res.status(400).json({ success: false, error: 'sessionId is required' });
     if (!message || !message.trim()) return res.status(400).json({ success: false, error: 'Message is required' });
 
@@ -36,7 +41,7 @@ exports.message = async (req, res) => {
     session.chatHistory.push({ role: 'user', content: message });
 
     const raw = await callOpenRouter([
-      { role: 'system', content: LEARNING_PROMPT },
+      { role: 'system', content: languagePrompt(language) },
       ...session.chatHistory.slice(-20).map(m => ({ role: m.role, content: m.content })),
     ]);
 
@@ -51,7 +56,7 @@ exports.message = async (req, res) => {
 
 exports.nextTopic = async (req, res) => {
   try {
-    const { sessionId } = req.body;
+    const { sessionId, language } = req.body;
     if (!sessionId) return res.status(400).json({ success: false, error: 'sessionId is required' });
 
     const session = await LearningSession.findById(sessionId);
@@ -64,7 +69,7 @@ exports.nextTopic = async (req, res) => {
     session.chatHistory.push({ role: 'user', content: 'I understand this topic. Let us move to the next topic.' });
 
     const raw = await callOpenRouter([
-      { role: 'system', content: LEARNING_PROMPT },
+      { role: 'system', content: languagePrompt(language) },
       ...session.chatHistory.slice(-20).map(m => ({ role: m.role, content: m.content })),
     ]);
 
@@ -79,7 +84,7 @@ exports.nextTopic = async (req, res) => {
 
 exports.repeat = async (req, res) => {
   try {
-    const { sessionId } = req.body;
+    const { sessionId, language } = req.body;
     if (!sessionId) return res.status(400).json({ success: false, error: 'sessionId is required' });
 
     const session = await LearningSession.findById(sessionId);
@@ -88,7 +93,7 @@ exports.repeat = async (req, res) => {
     session.chatHistory.push({ role: 'user', content: 'I did not understand. Please explain this topic again from the beginning with simpler words and a different example.' });
 
     const raw = await callOpenRouter([
-      { role: 'system', content: LEARNING_PROMPT },
+      { role: 'system', content: languagePrompt(language) },
       ...session.chatHistory.slice(-20).map(m => ({ role: m.role, content: m.content })),
     ]);
 
@@ -103,7 +108,7 @@ exports.repeat = async (req, res) => {
 
 exports.hint = async (req, res) => {
   try {
-    const { sessionId } = req.body;
+    const { sessionId, language } = req.body;
     if (!sessionId) return res.status(400).json({ success: false, error: 'sessionId is required' });
 
     const session = await LearningSession.findById(sessionId);
@@ -112,7 +117,7 @@ exports.hint = async (req, res) => {
     session.chatHistory.push({ role: 'user', content: 'Give me a hint or a clue to help me figure out the answer myself.' });
 
     const raw = await callOpenRouter([
-      { role: 'system', content: LEARNING_PROMPT },
+      { role: 'system', content: languagePrompt(language) },
       ...session.chatHistory.slice(-20).map(m => ({ role: m.role, content: m.content })),
     ]);
 
